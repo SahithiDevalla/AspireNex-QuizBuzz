@@ -13,8 +13,12 @@
         }
       }
     ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "/server/index.js" },
+      { "src": "/(.*)", "dest": "/client/build/index.html" }
+    ],
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+      { "source": "/api/(.*)", "destination": "/server/index.js" }
     ]
   }
   
