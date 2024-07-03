@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
-let url = 'http://localhost:9000';
+let url = 'https://aspirenex-quizbuzz.onrender.com';
 
 axios.defaults.baseURL = url;
 axios.defaults.headers.post['Content-Type'] = 'application/json';
