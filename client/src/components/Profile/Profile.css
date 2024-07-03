@@ -1,0 +1,78 @@
+/* Profile.css */
+.profile-wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: calc(100vw - 20vw); /* Ensure the main content takes the remaining width */
+    margin-left: 20vw; /* Adjust to the width of your sidebar */
+    height: 100vh; /* Full height of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: hidden; /* Prevent overflow */
+    flex-direction: column; /* Ensure the content flows vertically */
+}
+
+.profile-wrapper .header {
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.profile-wrapper .cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0 20px;
+    /* Ensure cards wrap to the next line if needed */
+}
+
+.profile-wrapper .cards .left, .profile-wrapper .cards .right {
+    width: 45%; /* Adjust width to ensure both cards fit within the container */
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px; /* Add margin to the bottom to create space between rows */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding inside the card */
+    background-color: white; /* Add background color for better contrast */
+}
+
+.profile-wrapper .img-uploader {
+    padding: 20px;
+}
+
+.profile-wrapper .img-uploader div:first-child {
+    margin-bottom: 20px;
+}
+
+.profile-wrapper .img-uploader .upload-box {
+    background-color: #dadfea;
+    border: 1px dashed black;
+    padding: 30px 20px;
+    border-radius: 10px; /* Add rounded corners */
+    text-align: center; /* Center the content */
+}
+
+.profile-wrapper .image-btn {
+    border: 1px solid white;
+    padding: 7px 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #00aaf1;
+    font-size: 1em;
+    border-radius: 5px; /* Add rounded corners */
+    margin-top: 20px;
+}
+
+.profile-wrapper .display-image {
+    border-radius: 50%;
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    margin-top: 20px;
+}
+
+.profile-wrapper .prof {
+    margin-top: 20px;
+}

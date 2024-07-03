@@ -1,0 +1,107 @@
+/* CreateQuiz.css */
+.create-quiz-wrapper {
+   display: flex;
+   align-items: flex-start;
+   width: calc(100vw - 20vw); /* Ensure the main content takes the remaining width */
+   margin-left: 20vw; /* Adjust to the width of your sidebar */
+   height: 100vh; /* Full height of the viewport */
+   overflow: hidden; /* Prevent overflow */
+   box-sizing: border-box; /* Include padding and border in the element's total width and height */
+   flex-direction: column; /* Ensure the content flows vertically */
+}
+
+.create-quiz-wrapper .main {
+   width: 100%;
+   padding-top: 40px;
+   font-family: 'Ubuntu', sans-serif;
+   overflow-y: auto; /* Allow vertical scrolling if content overflows */
+   height: 100vh;
+   padding: 20px; /* Add some padding for content */
+   box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.create-quiz-wrapper .header {
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   font-size: 2.3em;
+}
+
+.create-quiz-wrapper .form {
+   width: 90%;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.create-quiz-wrapper .select {
+   margin-top: 20px;
+}
+
+.create-quiz-wrapper .checkbox {
+   margin-top: 30px;
+   color: rgb(110, 108, 108);
+   display: flex;
+   align-items: center;
+   width: 300px;
+   justify-content: space-between;
+}
+
+.create-quiz-wrapper .input {
+   width: 300px !important;
+   margin: 10px 0;
+}
+
+.create-quiz-wrapper .add-question,
+.create-quiz-wrapper .add-answer {
+   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+   border-radius: 15px;
+   padding: 10px 0;
+   text-align: center;
+   font-size: 1.5em;
+   margin: 30px 0;
+   cursor: pointer;
+}
+
+.create-quiz-wrapper .btn-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.create-quiz-wrapper .btn-wrapper .btn {
+   color: white;
+   border-radius: 10px !important;
+}
+
+.create-quiz-wrapper .btn-wrapper .btn:first-child {
+   background-color: red;
+}
+
+.create-quiz-wrapper .question {
+   display: flex;
+   position: relative;
+   background-color: #eff0f1;
+   padding: 12px;
+   width: 90%;
+   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+   margin: 10px 0;
+   border-left: 5px solid #00aaf1;
+}
+
+.create-quiz-wrapper .question div {
+   margin-right: 40px;
+}
+
+.create-quiz-wrapper .question .delete {
+   position: absolute;
+   right: 20px;
+   background-color: red;
+   border-radius: 10px !important;
+   color: white;
+   padding: 8px;
+   top: 5px;
+}
+
+.create-quiz-wrapper .save-quiz {
+   border-radius: 10px;
+   color: white;
+}

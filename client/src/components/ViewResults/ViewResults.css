@@ -1,0 +1,84 @@
+.view-results-wrapper {
+    display: flex;
+    width: calc(100vw - 20vw); /* Ensure the main content takes the remaining width */
+    margin-left: 20vw; /* Adjust to the width of your sidebar */
+    height: 100vh; /* Full height of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: hidden; /* Prevent overflow */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.view-results-wrapper .body {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-results-wrapper .body .header {
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.view-results-wrapper .body .quiz-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-results-wrapper .body .quiz-data .left, 
+.view-results-wrapper .body .quiz-data .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-results-wrapper .body .quiz-data .left .header {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.view-results-wrapper .body .score {
+    margin: 20px 0;
+    font-size: 2em;
+    text-align: center;
+    color: #333;
+}
+
+.view-results-wrapper .answers {
+    margin-top: 40px;
+}
+
+.view-results-wrapper .answers .answer {
+    background-color: #e8ebf1;
+    margin-top: 15px;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid green; /* Default border for correct answers */
+    color: #333;
+}
+
+.view-results-wrapper .body .img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-results-wrapper .body img {
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,70 @@
+.auth-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.auth-wrapper .left {
+    background-color: rgb(255, 227, 251);
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.auth-wrapper .right {
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center;
+    width: calc(40% - 200px);
+}
+
+.auth-wrapper .right .header {
+    margin: 20px 0; /* Move header up */
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.auth-wrapper .form {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.auth-wrapper .input {
+    width: 20vw;
+}
+
+.auth-wrapper .sign-in-wrapper .input-wrapper {
+    text-align: left;
+    /* width: fit-content; */
+    margin: 10px auto; /* Adjust margin as needed */
+}
+
+.auth-wrapper .sign-in-wrapper .input-wrapper:first-child {
+    margin-top: 50px; /* Move signup details up */
+}
+
+.auth-wrapper .btn {
+    margin-top: 20px; /* Adjust margin as needed */
+    font-size: 1.1em !important;
+    width: 100% !important;
+}
+
+.auth-wrapper .new {
+    margin-top: 30px; /* Adjust margin as needed */
+    cursor: pointer;
+    color: rgb(148, 148, 148);
+}
+
+.auth-wrapper .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-wrapper .left img {
+    width: 60%;
+    height: auto;
+}
