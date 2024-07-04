@@ -22,7 +22,7 @@
 }
 
 .auth-wrapper .right .header {
-    margin: 20px 0; /* Move header up */
+    margin: 10px 0; /* Move header up */
     font-size: 3em;
     letter-spacing: 1px;
 }
@@ -43,7 +43,7 @@
 }
 
 .auth-wrapper .sign-in-wrapper .input-wrapper:first-child {
-    margin-top: 50px; /* Move signup details up */
+    margin-top: 30px; /* Move signup details up */
 }
 
 .auth-wrapper .btn {
